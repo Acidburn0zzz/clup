@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Clickable Update
-Comment=clup - configurable/clickable update of Arch Linux installation
+Name=Clickable Update (clup)
+Comment=clup - Clickable/configurable Update of Arch Linux
 Exec=clup
 Type=Application
 StartupNotify=true

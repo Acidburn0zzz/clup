@@ -1,9 +1,9 @@
 clup
 ====
 
-configurable, clickable, Arch Linux System Update - runs in terminal when clicked on launcher and keeps terminal open when update is complete for viewing output
+Clickable/configurable Update of Arch Linux - runs in terminal when clicked on launcher and keeps terminal open when update is complete for viewing output with the option to continue working in bash.
 
-This simplistic package is meant to be used as a way to launch, with a mouse-click, a system-wide update of Arch Linux in a terminal.
+This simplistic package is meant to be used as a way to launch, with a mouse-click, a system-wide update of Arch Linux in a terminal-window that pops up.
 
 To use it as intended, after installation, you should add it to a launcher. For example, in Xfce, you could
 
