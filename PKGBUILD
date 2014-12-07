@@ -12,7 +12,7 @@ install=${pkgname}.install
 source=(${pkgname} ${pkgname}.conf ${pkgname}.desktop)
 md5sums=('ad23467d8c4860e5b53cbec8dc86756a'
          'f6cfb2a1085bbcf48b46471be30fcb89'
-         '02ef5f54a353c2ebe791cc63d89a24c2')
+         '0abe59259a20e473417204c8f31543f9')
 
 package() {
   install -D -m755 ${pkgname}.conf "$pkgdir/etc/${pkgname}.conf"
