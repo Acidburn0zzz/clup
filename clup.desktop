@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Clickable Update
+Comment=clup - configurable/clickable update of Arch Linux installation
+Exec=clup
+Type=Application
+StartupNotify=true
+Icon=system-software-install
+Categories=System;
+Path=
+Terminal=true

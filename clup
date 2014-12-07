@@ -1,0 +1,24 @@
+#!/bin/bash
+declare -r myname='clup'
+declare -r myver='1.0'
+source /etc/clup.conf
+echo $clupdate
+eval $clupdate
+if [ -n "$(sudo find /etc -name "*pacnew" -print -quit)" ] # -n is true if string has length
+then
+	echo
+	echo $clupacnew
+	eval $clupacnew
+fi
+echo
+echo ________________________________________
+echo   q: quit
+echo   c: continue working in this terminal
+a=""
+read -p "[q/c]? " a
+until [[ "$a" =~ ^[qQcC] ]]
+do
+	read -p "[q/c]? " a
+done
+[ "$a" = q ] && exit 
+[ "$a" = c ] && bash
