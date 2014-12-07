@@ -10,7 +10,7 @@ license=('GPL')
 install=${pkgname}.install
 
 source=(${pkgname} ${pkgname}.conf ${pkgname}.desktop)
-md5sums=('ad23467d8c4860e5b53cbec8dc86756a'
+md5sums=('5a24ab2cc008059fe193080001880556'
          'f6cfb2a1085bbcf48b46471be30fcb89'
          '0abe59259a20e473417204c8f31543f9')
 

@@ -46,4 +46,4 @@ do
 	read -p "[q/c]? " a
 done
 [ "$a" = q ] && exit 
-[ "$a" = c ] && bash
+[ "$a" = c ] && eval $clupshell
