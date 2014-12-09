@@ -12,7 +12,7 @@ install=${pkgname}.install
 source=(https://raw.githubusercontent.com/colinkeenan/${pkgname}/v${pkgver}/${pkgname} 
         https://raw.githubusercontent.com/colinkeenan/${pkgname}/v${pkgver}/${pkgname}.conf 
 	https://raw.githubusercontent.com/colinkeenan/${pkgname}/v${pkgver}/${pkgname}.desktop)
-md5sums=('7d70e2e75dba40238c7bfba16b2fa7ab'
+md5sums=('7450016149f28def649bf4fa22adef6c'
          'd5f3caab2d3068ecaf76e09a5ece98f2'
          '0abe59259a20e473417204c8f31543f9')
 
