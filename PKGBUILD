@@ -9,9 +9,11 @@ url="https://github.com/colinkeenan/clup"
 license=('GPL')
 install=${pkgname}.install
 
-source=(${pkgname} ${pkgname}.conf ${pkgname}.desktop)
-md5sums=('5a24ab2cc008059fe193080001880556'
-         'f6cfb2a1085bbcf48b46471be30fcb89'
+source=(https://raw.githubusercontent.com/colinkeenan/${pkgname}/v${pkgver}/${pkgname} 
+        https://raw.githubusercontent.com/colinkeenan/${pkgname}/v${pkgver}/${pkgname}.conf 
+	https://raw.githubusercontent.com/colinkeenan/${pkgname}/v${pkgver}/${pkgname}.desktop)
+md5sums=('7d70e2e75dba40238c7bfba16b2fa7ab'
+         'd5f3caab2d3068ecaf76e09a5ece98f2'
          '0abe59259a20e473417204c8f31543f9')
 
 package() {
