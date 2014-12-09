@@ -1,7 +1,7 @@
 # Maintainer: Colin Keenan <colinnkeenan at gmail dot com>
 
 pkgname=clup
-pkgver=1.0
+pkgver=1.1
 pkgrel=1
 pkgdesc="Clickable/configurable Update of Arch Linux"
 arch=('any')
