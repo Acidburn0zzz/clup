@@ -1,6 +1,6 @@
 #!/bin/bash
 declare -r myname='clup'
-declare -r myver='1.0'
+declare -r myver='1.1'
 
 usage() {
 	echo "$myname : Clickable/configurable Update of Arch Linux"
